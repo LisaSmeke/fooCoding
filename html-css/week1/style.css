@@ -1,0 +1,180 @@
+body{
+    background-image: linear-gradient(to top, #e4007c, #e94f8e, #ed77a0, #ee98b3, #edb8c7);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*Main container*/
+.main{
+    width: 900px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px 30px 10px 30px;
+    border-radius: 16px;
+}
+
+/*Header: "Title and subtitle*/
+h1{
+    color:#e4007c;
+    font-size: 50px;
+    margin: 15px 0px 0px 0px;
+}
+
+#sub{
+    color: #e4007c;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0px 0px 0px;
+}
+
+/*Intro text*/
+.intro{
+    margin: 10px, 0px, 10px, 0px;
+    padding: 20px;
+    border-bottom: solid 2px #edb8c7;
+}
+
+article .me{
+    font-family: 'Courier Prime', monospace;
+    font-weight: 300;
+    width: 70%;
+    text-align: justify;
+}
+
+article .hello{
+    font-family: 'Courier Prime', monospace;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/*My photo*/
+img{
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #edb8c7;
+    float: right;
+}
+
+/*Navbar*/
+
+.menu{
+    padding-left: 0px;
+    padding-top: 10px;
+    margin: 5px 0px 0px 0px;
+}
+
+.menu li{
+    display: inline;
+    padding: 7px 5px 7px 5px;
+    margin: 0px 0px 0px 0px;
+    background-color: #edb8c7;
+    border-style: solid;
+    border-color: #e4007c;
+    border-radius: 16px;
+    border-width: 2px;
+    font-weight: 400;
+}
+
+.menu .contactbtn{
+    background-color: #e4007c;
+    border-color: #edb8c7;
+}
+
+/*Topics*/
+h2{
+    color:#e4007c;
+    font-weight: 600;
+}
+
+/*Sub-topics*/
+h3{
+    color: #000;
+    font-family: 'Courier Prime', monospace;
+    font-weight:700;
+    margin-left: 20px;
+    
+}
+
+/*Detailed info*/
+.desc{
+    font-family: 'Courier Prime', monospace;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+li{
+    list-style-type: circle;
+}
+
+/*Read more*/
+summary, .more{
+    color:#edb8c7;
+    margin-left: 20px;
+    width: 50%;
+}
+
+/*Aside*/
+aside{
+    border-bottom: solid 2px #edb8c7;
+}
+
+/*Footer*/
+footer{
+    width: 850px;
+    background-color: #e4007c;
+    color: #fff;
+    text-align:center;
+    padding: 30px;
+    border-radius: 16px;
+    margin-top: 15px;
+}
+
+#footerh2{
+    color:#fff;
+    font-weight: 400;
+}
+
+.fnav li{
+    display: inline;
+    font-family:'Courier Prime', monospace;
+    font-weight: 400;
+    color: #edb8c7;
+    padding: 7px 5px 7px 5px;
+}
+
+/*Links*/
+.menulink a:link{
+    color:#e4007c;
+}
+
+.menulink a:hover{
+    color:#fff;
+}
+
+.menulink a:visited{
+    color:#e4007c;
+}
+
+.menulink .contactbtn a:link{
+    color:#fff;
+}
+
+.menulink .contactbtn a:hover{
+    color:#000;
+}
+
+.menulink .contactbtn a:visited{
+    color:#fff;
+}
+
+a:link{
+    color:#edb8c7;
+}
+
+a:hover{
+    color:#000;
+}
+
+a:visited{
+    color:#edb8c7;
+}
