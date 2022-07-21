@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lisa Smeke</title>
+    <link rel="icon" type="image/x-icon" href="images/ls-logo.ico">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rakkas&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b949ecc55d.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <!--Main nav menu-->
+    <header>
+      <nav class="navbar">
+        <div class="logo-container">
+          <a href="#"><img class="logo" src="images/ls-logo.svg" alt="Lisa Smeke logo"/></a>
+        </div>
+        <ul class="nav-list" id="navi-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#podcast">Podcast</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu" id="toggle-button">
+          <div class="menu-line"></div>
+          <div class="menu-line"></div>
+          <div class="menu-line"></div>
+        </div>
+        <ul class="social-nav">
+          <li><a href="https://linkedin.com/in/lisa-smeke" target="_blank"><i class="fa-brands fa-linkedin-in fa-xl"></i></a></li>
+          <li><a href="https://github.com/LisaSmeke" target="_blank"><i class="fa-brands fa-github fa-xl"></i></a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Intro video banner-->
+    <section class="showcase">
+      <div class="video-container">
+        <video src="images/video-ls.mp4" poster="images/video-ls.svg" autoplay muted></video>
+      </div>
+    </section>
+
+    <!--ABOUT Carousel-->
+    <section class="about" id="about">
+      <h2>About</h2>
+      <div class="carousel">
+        <button class="carousel__button carousel__button--left is-hidden">
+          <i class="fa-solid fa-angle-left fa-xl --fa-inverse"></i>
+        </button>
+        <div class="carousel__track-container">
+          <ul class="carousel__track">
+            <li class="carousel__slide current-slide">
+              <div class="slide slide-dev">
+                <h3>Hello world!</h2>
+                <img src="images/dev.svg" alt="Lisa working with a laptop" class="dev-img"/>
+                <p>I am a Jr. Front-End Developer who seeks to harness the power of tech to build tangible solutions for global sustainability challenges.</p>
+              </div>
+            </li>
+            <li class="carousel__slide">
+              <div class="slide slide-background">
+                <p>My previous background is in Sustainability.</p>
+                <p>I have a MSc. in Environmental Management and Policy from Lund University, and professional experience in CSR, Sustainability, and Academia.</p>
+                <p><a href="https://linkedin.com/in/lisa-smeke" target="_blank">Learn more about my academic and professional background.</a></p>
+
+              </div>
+
+            </li>
+            <!-- <li class="carousel__slide">
+              <div class="slide slide-skills">
+                <p>My current technical skills are:</p>
+                <ul class="tech-logos">
+                  <li class="skill-icon"><i class="fa-brands fa-html5 fa-xl"></i>HTML</li>
+                  <li class="skill-icon"><i class="fa-brands fa-css3-alt fa-xl"></i>CSS3</li>
+                  <li class="skill-icon"><i class="fa-brands fa-js-square fa-xl"></i>JavaScript</li>
+                  <li class="skill-icon"><i class="fa-brands fa-git-alt fa-xl"></i>git</li>
+                  <li class="skill-icon"><i class="fa-brands fa-github fa-xl"></i>GitHub</li>
+                  <li class="skill-icon"><i class="fa-brands fa-node fa-xl"></i>Node</li>
+                  <li class="skill-icon"><i class="fa-brands fa-react fa-xl"></i>React</li>
+                  <li class="skill-icon"><i class="fa-brands fa-figma fa-xl"></i>Figma</li>
+                  <li class="skill-icon"><i class="fa-brands fa-trello fa-xl"></i>Trello</li>
+                  <li class="skill-icon"><i class="fa-brands fa-slack fa-xl"></i>Slack</li>
+                </ul>
+              </div>
+            </li> -->
+            <li class="carousel__slide">
+              <div class="slide">
+                <p>I was born and raised in Mexico.</p>
+                <p>I&apos;ve been living in Sweden since 2018.</p>
+                <p>I am currently based in Malmö, Sweden.</p>
+              </div>
+            </li>
+            <li class="carousel__slide">
+              <div class="slide">
+                <p>Whenever I&apos;m not coding, I&apos;m:</p>
+                <ul>
+                  <li>running</li>
+                  <li>reading</li>
+                  <li>cooking</li>
+                  <li>with friends and family</li>
+                </ul>
+              </div>
+            </li>
+            <li class="carousel__slide">
+              <div class="slide">
+                <p>My previous background is in Sustainability.</p>
+                <p>I have a MSc. in Environmental Management and Policy from Lund University, and professional experience in CSR, Sustainability, and Academia.</p>
+                <p><a href="https://linkedin.com/in/lisa-smeke" target="_blank">Learn more about my academic and professional background.</a></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <button class="carousel__button carousel__button--right">
+          <!-- <img src="images/angle-right-solid.svg" alt=""> -->
+          <i class="fa-solid fa-angle-right fa-xl --fa-inverse"></i>
+        </button>
+        <div class="carousel__nav">
+          <button class="carousel__indicator current-slide"></button>
+          <button class="carousel__indicator"></button>
+          <button class="carousel__indicator"></button>
+          <button class="carousel__indicator"></button>
+          <button class="carousel__indicator"></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <div class="work-title">
+        <img class="work-title-img" src="images/work.svg">
+        <h2>Work</h2>
+        <h3>Check out what I've built!</h3>
+      </div>
+      
+
+      <div class="project-list">
+        <div class="project">
+          <h4>Website Remake</h4>
+          <p>I re-made Google's website with HTML and CSS.</p>
+          <img class="work-img" src="images/work.svg">
+        </div>
+        <div class="project">Breaking Bad API</div>
+        <div class="project">Book List</div>
+      </div>
+    </section>
+
+    <section class="blog" id="blog">
+      <h2>Blog</h2>
+
+      <div class="blog-posts">
+        <div class="article">Article 1</div>
+        <div class="article">Article 2</div>
+        <div class="article">Article 3</div>
+        <div class="article">Article 4</div>
+        <div class="article">Article 5</div>
+        <div class="article">Article 6</div>
+      </div>
+    </section>
+
+    <!--PODCAST section-->
+    <section class="podcast" id="podcast">
+        <h2>Podcast</h2>
+        <h3>Interested in Sustainability and Tech?</h3>
+        <p>Get notified when my new podcast <i>Techology</i> is out!</p>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+          <button class="subscribe-btn" type="button">Sounds good!</button>
+        </form>
+        <img src="images/podcast.svg" width= "200px">
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Contact</h2>
+      <div class="contact-info">
+        <h3>Questions, comments, suggestions?</h3>
+        <p>Feel free to reach out!</p>
+      </div>
+      <ul class="contact-icons">
+        <li class="tel"><a href="tel:+46790510137"><i class="fa-solid fa-phone fa-xl"></i></a></li>
+        <li class="mail"><a href="mailto:lisasmeke@gmail.com?&subject=Hi%20Lisa!..."><i class="fa-solid fa-at fa-xl"></i></a></li>
+        <li class="linkedin"><a href="https://linkedin.com/in/lisa-smeke" target="_blank"><i class="fa-brands fa-linkedin-in fa-xl"></i></a></li>
+        <li class="github"><a href="https://github.com/LisaSmeke" target="_blank"><i class="fa-brands fa-github fa-xl"></i></a></li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <div class="source-copy">
+        <a href="https://github.com" target="_blank">Source code</a>
+        <p class="copyright">&copy; 2022 Lisa Smeke</p>
+      </div>
+      
+      <div class="bottom-links">
+        <a href="#" class="back-top">Back to top</a>
+      </div>
+    </footer>
+    <script src="portfolio.js"></script>
+  </body>
+
+</html>
