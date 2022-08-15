@@ -1,0 +1,3 @@
+[submodule "Node.js"]
+	path = Node.js
+	url = git@github.com:foocoding/Node.js.git
