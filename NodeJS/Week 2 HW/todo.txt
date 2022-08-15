@@ -1,5 +1,0 @@
-Learn how to call an API
-Build my developer portfolio
-Practice using Flexbox
-Watch CSS tutorials
-Read about HTML
