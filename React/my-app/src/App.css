@@ -2,11 +2,9 @@
   text-align: center;
 }
 
-.App-pic {
+.App-logo {
   height: 40vmin;
   pointer-events: none;
-  border-radius: 50%;
-  border: solid 4px #fff;
 }
 
 @media (prefers-reduced-motion: no-preference) {
